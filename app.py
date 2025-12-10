@@ -1,7 +1,5 @@
 import streamlit as st
-import requests
-import pygame
- 
+import requests 
 # -----------------------------------------------------------
 # ULTRA-MODERN FUTURISTIC CSS
 # -----------------------------------------------------------
@@ -407,3 +405,4 @@ if compute:
         text = f"{num1} ÷ {num2} = {result}"
 
     st.markdown(f'<div class="result"><span class="result-text">RESULT: {text}</span></div>', unsafe_allow_html=True)
+
